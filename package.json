@@ -1,6 +1,14 @@
 {
+  "name": "feishu-notify",
+  "version": "1.0.0",
+  "description": "飞书通知集成 - 发送和接收消息",
+  "main": "feishu-notify.js",
+  "scripts": {
+    "start": "node server.js",
+    "notify": "node feishu-notify.js"
+  },
   "dependencies": {
-    "@opencode-ai/plugin": "1.4.11",
-    "axios": "^1.15.1"
+    "axios": "^1.15.1",
+    "express": "^4.22.1"
   }
 }
