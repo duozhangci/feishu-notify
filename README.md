@@ -82,3 +82,7 @@ feishu-notify/
 ## License
 
 MIT
+OpenCode 集成 Feishu
+- 使用 feishu-notify 提供的发送能力，在 OpenCode 流水线触发通知。
+- 方案：直接在流水线步骤中执行 opencode-feishu-action.js，或安装插件插件式接入。
+- 路径：opencode-feishu-action.js（根目录）和 plugins/opencode-feishu/index.js（插件入口）
